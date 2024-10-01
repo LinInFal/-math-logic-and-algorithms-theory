@@ -3,10 +3,10 @@ import itertools
 
 
 def conjunction(a, b):
-    return a and b
+    return a & b
 
 def disjunction(a, b):
-    return a or b
+    return a | b
 
 def implication(a, b):
     return int(not a or b)
