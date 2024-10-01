@@ -1,2 +1,2 @@
-# -math-logic-and-algorithms-theory
+# math-logic-and-algorithms-theory
 Лабораторные работы по дисциплине "Математическая логика и теория алгоритмов"
