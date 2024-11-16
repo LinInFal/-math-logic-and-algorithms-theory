@@ -43,6 +43,7 @@ for i in range(data_size):  # перечисляем строки таблицы
         course_num = int(course_str[0])
         if course_num > 2:
             val = val and (age_num > 18)
+            print("Найден студент:", data_x[i])
 print("Ответ:", val)
 print()
 
@@ -89,7 +90,8 @@ for i in range(data_size):
         age_num = int(age_str[0:2])
     course_str = data_x[i][1]  # столбец с курсом имеет индекс 1
     if 'бакалавриат' in course_str:
-        val = val or (age_num == 16)
+        val = val and (age_num == 16)
+        print("Нарушение:", data_x[i])
 
 print("Ответ:", val)
 print()
